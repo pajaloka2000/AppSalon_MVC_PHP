@@ -1,0 +1,23 @@
+{
+    "name": "manuel_nunezva/appsalon",
+    "description": "proyecto php 8 MVC, SASS",
+    "type": "project",
+    "autoload":{
+        "psr-4":{
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "manuelmendraw",
+            "email": "manuemendraw@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
